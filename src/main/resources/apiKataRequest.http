@@ -1,0 +1,39 @@
+GET http://94.198.50.185:7081/api/users
+Accept: application/json
+
+###
+
+POST http://94.198.50.185:7081/api/users
+Content-Type: application/json
+
+{
+  "id": 3,
+  "name": "James",
+  "lastName": "Brown",
+  "age": 29
+}
+###
+GET http://94.198.50.185:7081/api/users
+Content-Type: application/json
+
+###
+
+PUT http://94.198.50.185:7081/api/users
+Content-Type: application/json
+
+{
+  "id": 3,
+  "name": "Thomas",
+  "lastName": "Shelby",
+  "age": 29
+}
+###
+
+GET http://94.198.50.185:7081/api/users
+Content-Type: application/json
+
+###
+DELETE http://94.198.50.185:7081/api/users/3
+Content-Type: application/json
+
+###
